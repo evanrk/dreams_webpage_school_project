@@ -6,3 +6,75 @@
 h1 {
     font-family: main;
 }
+
+.navbar {
+    display: flex;
+    font-family: main;
+    overflow: hidden;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+
+}
+
+.navbar-left{
+    display: flex;
+    flex: 0.1;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    margin-left: 10%;
+}
+
+
+.navbar-right{
+    display: flex;
+    flex: 0.4;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    margin-right: 10%;
+    font-size: 13px;
+}
+
+.navbar-item-start{
+    padding: 30px;
+    padding-left: 60px;
+}
+
+.navbar-item{
+    padding: 30px;
+    margin: 0;
+}
+
+
+.navbar a{
+    font-family: main;
+    color: white;
+    text-decoration: none;
+}
+
+.content {
+    margin-top: 15%;
+    display: grid;
+    grid-template-columns: 60% 15% 15%;
+
+}
+
+.content article{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.hero-quote {
+    font-size: 65px;
+    line-height: 70px;
+    font-family: main;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
