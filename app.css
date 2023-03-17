@@ -1,0 +1,8 @@
+@font-face {
+    font-family: main;
+    src: url(fonts/MatterTRIAL-Light.otf);
+}
+
+h1 {
+    font-family: main;
+}
