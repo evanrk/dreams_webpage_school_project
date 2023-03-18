@@ -6,16 +6,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DREAMS</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/intersect@3.x.x/dist/cdn.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
     <link rel="stylesheet" href="app.css">
 </head>
 
-<body>
-    <nav class="navbar">
-
-        <section class="navbar-left">
-            <p>DREAMS</p>
-        </section>
+<body style="padding: 0px; margin: 0px;">
+    <nav id="navbar" class="navbar">
+        <div class="navbar-left">
+            DREAMS
+        </div>
 
         <ul class="navbar-right">
             <li class="navbar-item-start"><a href="#">SECTION1</a></li>
@@ -26,17 +26,40 @@
             <li class="navbar-item"><a href="#">SECTION6</a></li>
         </ul>
     </nav>
-
-    <section class="content">
-        <article class="hero-quote">
-            <q>There are only the pursued, the pursuing, the busy, and the tired</q> <br> — The Great Gatsby
-        </article>
-        <article class="spacing">2</article>
-        <article class="spacing">3</article>
-        <article class="spacing">4</article>
-        <article class="spacing">5</article>
-        <article class="hero-intro"></article>
-    </section>
-
+    
+    <div class="content">
+        <section class="hero">
+            <article class="hero-quote">
+                <div class="hero-quote-content"><q>
+                    There are only
+                    <div>&ensp;the pursued, </div>
+                    <div>&ensp;the pursuing, </div>
+                    <div>&ensp;the busy, </div>
+                    &ensp;and the tired
+                </q></div>
+                <div style="float: left; padding-left: 20px; margin-top: 0px;"> &mdash; The Great Gatsby</div>
+            </article>
+            <div class="spacing"></div>
+            <div class="spacing"></div>
+            <div class="spacing"></div>
+            <div class="spacing"></div>
+            <div class="spacing"></div>
+            <article class="hero-intro">
+                Dreams dominate the human experience; They let us escape beyond the daily
+                hustle, with its regrets and bitterness, to something sweeter — something too good to be true. They are
+                more precious than reality: they satisfy the cravings that aren't fulfilled, replacing them with hope.<br>
+                But what happens when our dreams are broken? <br>
+                How would one deal with that failure and regret?
+            </article>
+            <div class="spacing"></div>
+            <div class="spacing"></div>
+            <div class="spacing"></div>
+            <div class="spacing"></div>
+            <div class="spacing"></div>
+            <div class="spacing"></div>
+        </section>
+    </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
