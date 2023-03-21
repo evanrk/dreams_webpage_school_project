@@ -164,6 +164,7 @@ h1 {
 }
 
 .footer-author {
+    margin-top: 7px;
     display: flex;
     font-size: 10px;
     font-family: matter-light-italic;
