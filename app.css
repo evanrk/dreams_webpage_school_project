@@ -117,11 +117,16 @@ h1 {
 
 #intro-question-1 {
     text-align: start;
-    margin-bottom: 20%;
+    margin-bottom: 15%;
 }
 
 #intro-question-2 {
     text-align: end;
+    margin-bottom: 15%;
+}
+
+#intro-question-3 {
+    text-align: start;
 }
 
 /* SECTION1 */
