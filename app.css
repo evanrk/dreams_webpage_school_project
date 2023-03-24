@@ -10,6 +10,10 @@
 }
 
 
+html {
+    scroll-behavior: smooth;
+}
+
 h1 {
     font-family: matter-light;
 }
@@ -72,19 +76,16 @@ h1 {
 }
 
 
-/* .content {
-} */
-
-/* TIMELINE LINE */
-/* #timeline {
-    position: absolute;
-    background-color: black;
+#arrow-up {
+    position: fixed;
     right: 40px;
-    top: 250%;
-    height: 1000%;
-    width: 8px;
-    border-radius: 1px;
-} */
+    bottom: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: grey;
+}
+
 
 /* hero section */
 #hero {
@@ -191,18 +192,33 @@ h1 {
 }
 
 /* SECTION1 */
+
 #section1{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 50% 50%;
     min-height: 500px;
     background-color: white;
     justify-content: right;
 }
 
 #section1 p{
-    width: 40%;
-    padding-right: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
+
+#section1 div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 35px;
+    /* margin-top: 5%; */
+    padding-left: 5%;
+    padding-right: 5%;
+    text-transform: uppercase;
+    line-height: 150%;
+    border-right: 1px grey solid;
+}
+
 
 
 /* SECTION2 */
@@ -244,9 +260,13 @@ h1 {
 }
 
 /* SECTION4 */
-/* SECTION5 */
-/* SECTION6 */
+/* nothing here */
 
+/* ANNOTATED BIBLIOGRAPHY */
+#annotated-bibliography{
+    padding: 5%;
+    line-height: 215%;
+}
 
 /* FOOTER */
 #footer {
