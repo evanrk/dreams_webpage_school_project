@@ -262,6 +262,32 @@ h1 {
 /* SECTION4 */
 /* nothing here */
 
+/* SECTION5 */
+#section-introduction-5 h1{
+    font-family: matter-light;
+    font-size: 60px;
+    color: white;
+    text-transform: uppercase;
+}
+
+#section5 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#section5-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#section5-column .image {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
 /* ANNOTATED BIBLIOGRAPHY */
 #annotated-bibliography{
     padding: 5%;
