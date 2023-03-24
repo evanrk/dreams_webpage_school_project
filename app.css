@@ -135,6 +135,10 @@ h1 {
     background-color: black;
 }
 
+#section1 p{
+    font-family: matter-light;
+    color: white;
+}
 
 /* SECTION2 */
 #section2{
