@@ -117,12 +117,12 @@ h1 {
 
 #intro-question-1 {
     text-align: start;
-    margin-bottom: 15%;
+    margin-bottom: 13%;
 }
 
 #intro-question-2 {
     text-align: end;
-    margin-bottom: 15%;
+    margin-bottom: 13%;
 }
 
 #intro-question-3 {
@@ -131,13 +131,19 @@ h1 {
 
 /* SECTION1 */
 #section1{
+    display: flex;
+    align-items: center;
     min-height: 500px;
     background-color: black;
+
 }
 
 #section1 p{
     font-family: matter-light;
     color: white;
+    padding: 10%;
+    font-size: 20px;
+    text-align: center;
 }
 
 /* SECTION2 */
