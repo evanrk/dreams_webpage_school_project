@@ -18,6 +18,14 @@ h1 {
     font-family: matter-light;
 }
 
+figcaption {
+    font-size: .8rem;
+    font-style: italic;
+    color: gray;
+    line-height: 1rem;
+    padding: 2px 5px;    
+}
+
 /* NAVBAR */
 .navbar {
     display: flex;
@@ -234,6 +242,11 @@ h1 {
     padding-right: 3%;
 }
 
+#section2-video {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
 #section2-homestead-act{
     padding-right: 5%;
     padding-left: 5%;
@@ -285,7 +298,7 @@ h1 {
 
 #section5-column .image {
     margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 0;
 }
 
 /* ANNOTATED BIBLIOGRAPHY */
