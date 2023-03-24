@@ -336,3 +336,23 @@ h1 {
     font-size: 10px;
     font-family: matter-light-italic;
 }
+
+
+/* GATSBY */
+#section-gatsby{
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+#section-gatsby-text{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#section-gatsby-column{
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
