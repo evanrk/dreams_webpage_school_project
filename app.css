@@ -94,6 +94,10 @@ figcaption, .citation {
     color: grey;
 }
 
+#arrow-up:hover {
+   cursor: pointer;
+}
+
 
 /* hero section */
 #hero {
