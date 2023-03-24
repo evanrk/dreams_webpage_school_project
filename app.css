@@ -145,6 +145,7 @@ h1 {
 .section-introduction{
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: row;
     height: 500px;
     background-color: black;
@@ -153,6 +154,7 @@ h1 {
 /* SCROLL BREAKPOINT??????? */
 
 .section-introduction p{
+    display: flex;
     font-family: matter-light;
     color: white;
     padding: 10%;
@@ -160,7 +162,15 @@ h1 {
     text-align: center;
 }
 
-.section-introduction h2{
+.section-introduction .section-introduction-left{
+    overflow: hidden;
+    position: absolute;
+    left: 10px;
+    color: white;
+    font-family: matter-light-italic;
+}
+
+.section-introduction .section-introduction-right{
     overflow: hidden;
     position: absolute;
     right: 10px;
@@ -192,19 +202,27 @@ h1 {
     padding-right: 3%;
 }
 
+
 /* SECTION2 */
 #section2{
-    display: flex;
-    flex-direction: row;
-    min-height: 500px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* min-height: 500px; */
     background-color: white;
-    justify-content: left;
 }
 
-#section2 p{
-    width: 40%;
+#section2-redlining{
     padding-left: 3%;
+    padding-right: 3%;
 }
+
+#section2-homestead-act{
+    padding-right: 5%;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
 /* SECTION3 */
 /* SECTION4 */
 /* SECTION5 */
