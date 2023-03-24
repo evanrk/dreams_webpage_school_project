@@ -18,12 +18,12 @@ h1 {
     font-family: matter-light;
 }
 
-figcaption {
+figcaption, .citation {
     font-size: .8rem;
     font-style: italic;
     color: gray;
     line-height: 1rem;
-    padding: 2px 5px;    
+    padding: 3px 5px;    
 }
 
 /* NAVBAR */
